@@ -1,0 +1,1 @@
+# smg-master-template

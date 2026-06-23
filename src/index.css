@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: var(--color-brand-primary, #0f172a);
+  --color-brand-secondary: var(--color-brand-secondary, #475569);
+  --color-brand-accent: var(--color-brand-accent, #2563eb);
+  
+  --color-surface-canvas: #f8fafc;
+  --color-surface-card: #ffffff;
+  --color-surface-muted: #f1f5f9;
+  
+  --color-text-main: #0f172a;
+  --color-text-body: #334155;
+}
+
+body {
+  background-color: var(--color-surface-canvas);
+  color: var(--color-text-body);
+  font-family: sans-serif;
+}
